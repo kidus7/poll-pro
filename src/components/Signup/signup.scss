@@ -1,0 +1,27 @@
+
+.paperContainer{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 70vh;
+    margin-top: 7%;
+    padding-top: 1%;
+    color: rgb(10, 10, 57);
+
+    div {
+    margin-bottom: 8px;
+    }
+
+    input{
+        background: none;
+    }
+    input:autofill {
+        background: none;
+    }
+    
+    input:-webkit-autofill {
+        background: none;
+    }
+}
+
